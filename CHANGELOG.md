@@ -1,5 +1,17 @@
 # Changelog
 
+## [2.81.3](https://github.com/postalsys/emailengine/compare/v2.81.2...v2.81.3) (2026-09-30)
+
+
+### Bug Fixes
+
+* assert the literal cap on the continuations sent before the refusal ([1aa24dc](https://github.com/postalsys/emailengine/commit/1aa24dc9d6cbd2a2b8b33b4dc8f5fd328ab435bb))
+* close the findings of the 2026-09-28 codebase audit ([2db748f](https://github.com/postalsys/emailengine/commit/2db748fc9879d577d3a9634fd6676149c91c1219))
+* count announced literals against the IMAP proxy cap at continuation time ([51b73d2](https://github.com/postalsys/emailengine/commit/51b73d2f498e2d1fcd85861104ad89f65f184879))
+* **deps:** update libmime, mailsplit, imapflow, mailparser and email-ai-tools ([943d2f5](https://github.com/postalsys/emailengine/commit/943d2f5891a88ff040fc2b7b3eb590c16cc498c6))
+* **deps:** update nodemailer, smtp-server, mailparser, email-content and email-ai-tools ([af7aa9f](https://github.com/postalsys/emailengine/commit/af7aa9f5a46fb20409c9d8a3bd64be63c6593700))
+* read the browse page session token from its hidden input in the e2e spec ([eea4a58](https://github.com/postalsys/emailengine/commit/eea4a58d5d15779c322fa52b9cc03b14284f2104))
+
 ## [2.81.2](https://github.com/postalsys/emailengine/compare/v2.81.1...v2.81.2) (2026-09-27)
 
 
